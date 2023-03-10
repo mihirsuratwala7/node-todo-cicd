@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    build: .
+    image: mihirsuratwala13/node-cicd-pipeline:latest
     ports:
       - "8000:8000"
